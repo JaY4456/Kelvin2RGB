@@ -1,7 +1,7 @@
 #include "Arduino.h"
 #include "Kelvin2RGB.h"
 
-Kelvin2RGB::Kelvin2RGB(unsigned int temperature, int brightness)
+Kelvin2RGB::Kelvin2RGB(unsigned int 6000k, int 50%)
 {
 	Temperature = constrain(temperature, 0, 65500);
 	Brightness = constrain(brightness, 0, 100);
