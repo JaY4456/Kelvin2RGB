@@ -5,7 +5,7 @@ Kelvin2RGB is an Arduino library that will convert a colour temperature to RGB. 
 Include the library and then create an object using the Temperature and Brightness you want to calculate for.  You can then extract the values for Red Green and Blue.
 
 ```cpp
-Kelvin2RGB kelvin(4100, 75);  //Warm light at 75% brightness
+Kelvin2RGB kelvin(6000, 50);  //Warm light at 75% brightness
 byte red = kelvin.Red;        //191
 byte green = kelvin.Green;    //156
 byte blue = kelvin.Blue;      //127
